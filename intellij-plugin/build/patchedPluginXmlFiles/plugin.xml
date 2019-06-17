@@ -1,0 +1,18 @@
+<idea-plugin>
+  <version>0.1.0-SNAPSHOT</version>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="191.7479" until-build="191.*"/>
+  <id>com.github.krraghavan.dev-platform-intellij-plugin</id>
+  <name>Open API Development Platform IntelliJ Plugin</name>
+  <vendor email="raghavan@nutanix.com" url="http://www.nutanix.com">Nutanix</vendor>
+  <description>
+    Allows the creation of projects inside Intellij with support for
+    adding endpoints and models as well as macros
+    </description>
+  <extensions defaultExtensionNs="com.intellij">
+    <moduleBuilder builderClass="com.github.krr.openapi.dev.platform.intellij.plugin.steps.NewModuleWizard" id="OpenAPIProject" order="first"/>
+  </extensions>
+  <actions/>
+</idea-plugin>
