@@ -1,2 +1,4 @@
-# openapi-dev-platform-intellij
-IntelliJ IDE plugin for Open API developer platform
+# openapi-dev-platform-tools
+Developer tools for Open API developer platform
+
+- IntelliJ Plugin
